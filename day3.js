@@ -1,9 +1,12 @@
 let student = {
-    name: "Sakshi Chavan",
-    marks: [85, 92, 78, 88, 95]  
+    name: "Riddhi Gopalani",
+    marks: [85, 92, 98, 88, 95]
 };
 
-let total = student.marks.reduce((sum, mark) => sum + mark, 0);
+let total = 0;
+for (let i = 0; i < student.marks.length; i++) {
+    total = total + student.marks[i];
+}
 
 let average = total / student.marks.length;
 
@@ -21,7 +24,7 @@ if (average >= 90) {
 }
 
 console.log("Student Name: " + student.name);
-console.log("Marks: " + student.marks.join(", "));
+console.log("Marks: " + student.marks);
 console.log("Total Marks: " + total);
-console.log("Average: " + average.toFixed(2));
+console.log("Average: " + average);
 console.log("Grade: " + grade);
