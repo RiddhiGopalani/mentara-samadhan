@@ -10,7 +10,8 @@ console.log("Age: " + student.age);
 console.log("Roll No: " + student.rollNo);
 console.log("Course: " + student.course);
 
-console.log("\n--- Student Details ---");
+console.log("\nStudent details are as follows: ");
 for (let key in student) {
     console.log(key + ": " + student[key]);
 }
+
