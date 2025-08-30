@@ -1,0 +1,55 @@
+.page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+.card {
+  background: #ffffff;
+  width: 320px;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.count {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 10px 0 16px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+input {
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 12px;
+  border: 2px solid #3d3838;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+button {
+  padding: 8px 14px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover { background: #0062cc; }
+
+.preview {
+  min-height: 24px; /* keeps box from jumping when empty */
+  margin-top: 12px;
+  color: #333;
+  font-size: 18px;
+}
